@@ -1,2 +1,2 @@
 # streamPlatform
-Created with CodeSandbox
+Streaming platform w/ Sign Up/In
