@@ -1,0 +1,169 @@
+html {
+  background-color: rgb(61, 61, 61);
+}
+body {
+  margin: 0 auto;
+  color: white;
+  font-family: sans-serif;
+}
+h1 {
+  font-size: 60px;
+}
+h2 {
+  font-size: 18px;
+}
+a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  position: relative;
+}
+li {
+  float: right;
+  padding: 10px;
+  width: 90px;
+  font-weight: bolder;
+}
+
+ul li.active {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(143, 93, 0, 0.8);
+  border-radius: 5px;
+}
+ul li.active:hover {
+  background-color: rgb(143, 93, 0);
+  text-shadow: 1px 1px 10px rgb(235, 235, 22);
+}
+.active a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.content {
+  background-color: rgb(29, 29, 29);
+  display: grid;
+  grid-template-columns: 100%;
+}
+.header {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.logo {
+  text-align: left;
+  padding: 15px 40px;
+}
+.menu {
+  padding: 10px 40px;
+}
+.menu .active :hover {
+  background-color: rgb(143, 93, 0);
+}
+.banner {
+  background: url("images/MeCover.jpg");
+  background-size: cover;
+  height: 200px;
+  display: grid;
+  grid-auto-columns: 70% 30%;
+  text-align: left;
+  padding: 60px 70px 165px 70px !important;
+}
+
+.banner > div {
+  width: 800px;
+}
+.banner .button {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px;
+  border: 1.75px solid #fff;
+  border-radius: 7px;
+}
+.movies {
+  text-align: left !important;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 10px;
+  padding: 76px !important;
+}
+.movies img {
+  width: 100%;
+}
+.movies h2 {
+  font-size: 25px;
+  font-weight: bolder;
+}
+.movies .lefttitle {
+  text-shadow: 2px 2px 4px #a892157e;
+}
+.movies .righttitle {
+  text-shadow: 2px 2px 4px #a892157e;
+}
+.movies .featured {
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 20px;
+}
+.movies .featured > div {
+  background-color: rgb(20, 20, 20);
+  border-radius: 14px;
+}
+.movies .featured .info {
+  padding-left: 20px;
+  background: rgb(20, 20, 20);
+}
+.movies .events {
+  display: grid;
+  grid-template-columns: 100%;
+  background: rgb(65, 64, 64);
+  border-radius: 5px;
+  padding: 34px 24px 0px 24px;
+}
+.movies .events img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.movies .events > div {
+  position: relative;
+  margin-bottom: 75px;
+}
+.movies .events .title {
+  margin: 0;
+  position: absolute;
+  top: 25%;
+  left: 15%;
+  text-align: center;
+  min-width: 300px;
+}
+
+.movies .events h2 {
+  font-size: 24px;
+}
+.movies .events button {
+  font-size: 16px;
+  line-height: 30px;
+  background: transparent;
+  border: 0.75 solid white;
+  color: white;
+  padding: 10px 40px;
+  cursor: pointer;
+}
+.imgoverlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+.movieh1 {
+  text-align: center;
+}
+.moviep {
+  text-align: center;
+}
